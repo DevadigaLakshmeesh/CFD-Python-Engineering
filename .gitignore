@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CFD Python project exclusions
+.venv/
+.ipynb_checkpoints/
+.vscode/
+
+# Python temporary files
+*.log
+*.tmp
+
+# Simulation outputs - review before committing
+*.cas
+*.dat
+*.cas.h5
+*.dat.h5
+*.sim
